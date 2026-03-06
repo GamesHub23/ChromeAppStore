@@ -1,0 +1,25 @@
+/* Update pentru a trata imaginile corect */
+img.app-icon {
+    object-fit: cover;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Grup pentru cele 2 butoane */
+.button-group {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    margin-top: auto; /* Împinge butoanele jos de tot */
+}
+
+/* Actualizare butoane pentru a funcționa corect ca link-uri <a> */
+.md-button {
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    flex: 1; /* Împarte spațiul în mod egal între butoane */
+    font-size: 11px; /* Font mai mic pentru a încăpea două */
+    padding: 8px 4px;
+    display: inline-block;
+}
